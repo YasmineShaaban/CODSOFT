@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".cover">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="GREETINGS!"
+        android:textColor="@color/black"
+        android:layout_marginTop="55pt"
+        android:textSize="13pt"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Welcome to the Quotes World!"
+        android:textColor="@color/black"
+        android:layout_marginTop="12pt"
+        android:textSize="11pt"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Develop a positive mindset!"
+        android:textSize="9pt"
+        android:layout_marginLeft="5pt"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="30pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Find motivation in our sayings!"
+        android:textSize="9pt"
+        android:layout_marginLeft="5pt"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="11pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Have a great journey with our quotes!"
+        android:textSize="9pt"
+        android:layout_marginLeft="5pt"
+        android:textColor="@color/black"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="11pt"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="• Share inspiration with your friends and\n  family!"
+        android:textSize="9pt"
+        android:layout_marginLeft="5pt"
+        android:textColor="@color/black"
+        android:layout_marginRight="5pt"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="11pt"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:layout_gravity="center"
+        android:text="get started!"
+        android:id="@+id/btn"
+        android:textSize="7pt"
+        android:textColor="@color/white"
+        android:layout_marginTop="80pt"/>
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blueb"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="~  Q U O T E S  ~"
+        android:layout_gravity="center"
+        android:layout_marginTop="25pt"
+        android:textSize="13pt"
+        android:textColor="#C6000000"
+        android:fontFamily="sans-serif-black"/>
+    <TextView
+        android:layout_width="150pt"
+        android:layout_height="70pt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Great things take time! \n~Unknown"
+        android:layout_marginTop="40pt"
+        android:textSize="8pt"
+        android:background="@drawable/border"
+        android:fontFamily="monospace"
+        android:id="@+id/quote"
+        android:textColor="#D2000000"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10pt"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="20pt"
+            android:layout_height="20pt"
+            android:layout_marginLeft="45pt"
+            android:src="@drawable/fav"
+            />
+
+        <ImageView
+            android:layout_width="20pt"
+            android:layout_height="20pt"
+            android:layout_marginLeft="55pt"
+            android:src="@drawable/refresh"
+            />
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="67pt"
+            android:layout_height="wrap_content"
+            android:text="add to favorites"
+            android:layout_marginLeft="20pt"
+            android:textColor="@color/white"
+            android:textSize="5pt"
+            android:backgroundTint="#8D000000"
+            android:id="@+id/fav"/>
+
+        <Button
+            android:layout_width="67pt"
+            android:layout_height="wrap_content"
+            android:text="Another Qoute"
+            android:id="@+id/btn"
+            android:textSize="5pt"
+            android:textColor="@color/white"
+            android:backgroundTint="#8D000000"
+            android:layout_marginLeft="10pt"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="85pt"
+        android:layout_height="wrap_content"
+        android:text="view favorites"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="#8D000000"
+        android:layout_marginTop="45pt"
+        android:textSize="5pt"
+        android:id="@+id/viewfavs"/>
+    <Button
+        android:layout_width="95pt"
+        android:layout_height="wrap_content"
+        android:text="View all quotes"
+        android:id="@+id/view"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:backgroundTint="#8D000000"
+        android:layout_marginTop="2pt"
+        android:textSize="5pt" />
+
+    <Button
+        android:layout_width="105pt"
+        android:layout_height="wrap_content"
+        android:text="Share quote with others"
+        android:id="@+id/share"
+        android:textColor="@color/white"
+        android:backgroundTint="#8D000000"
+        android:textSize="5pt"
+        android:layout_marginTop="2pt"
+        android:layout_gravity="center"/>
+</LinearLayout>
